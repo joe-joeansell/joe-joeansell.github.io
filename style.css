@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+/* * {box-sizing: border-box} */
+ #navbar {
+        margin:auto;
+        margin-top: 1%;
+        padding:20px;
+        background-color:#fff;
+        width:65%;
+        height:10%;
+        text-align:center;
+        border-radius:20px;
+        margin-bottom:1%;
+        font-size:32px;
+    }
+    #navbar a {
+        color:#5fdb9f;
+        text-decoration: none;
+        padding-left:4%;
+	    padding-right:4%;
+        font-family: "Orbitron", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition:0.3s;
+    }
+    #navbar a:hover{
+        opacity:0.6;
+        transition:0.3s;
+    }
+    #navbar a:active{
+        opacity:0.3;
+        transition:0.1s;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color:#e6faf0;
+        margin:0px;
+    }
+    #portfoliobody {
+        font-family: "Orbitron", sans-serif;
+        background-color:#fff;
+        color:#0a8c4c;
+        font-size:14px;
+        width:60%;
+        border-radius:10px;
+        margin:auto;
+        text-align:center;
+        margin-top:1.5%;
+        margin-bottom:2%;
+        padding:0.5%;
+    }
+    #portfoliobody h1{
+        margin-bottom:-0.5%;
+    }
+        #footer {
+        /* Positioning and text style */
+        text-align:center;
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        padding-top:3px;
+        padding-bottom:3px;
+        font-size:18px;
+        position: relative;
+        color:black;
+        /*	Stretches full length of page.*/
+        width:100%;
+        /* Sets background colour */
+        background-color:#5fdb9f;
+    }
+    .headline {
+        font-family: "Orbitron", sans-serif;
+        position:absolute;
+        background-color: rgba(255, 255, 255, 0.9);
+        color:#3e4f46;
+        font-weight:bold;
+        font-size:1.60em;
+        /* border: 1px solid black; */
+        width:100%;
+        top:55%;
+    }
+    #byline{
+        /* font-family:'Courier New', Courier, monospace; */
+        border-radius:10px;
+        margin:auto;
+        width:90%;
+        background-color:#5fdb9f;
+        color: white;
+        font-size:0.95em;
+        padding-top:1px; padding-bottom:1px;
+        padding-left: 20px; padding-right: 20px;
+        margin-bottom:2%;
+    }
+    .bio-text{
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        font-size:20px;
+        padding-top:0%;
+        padding-bottom:1%; 
+        color:#507360;
+        width:90%;
+        margin:auto;
+    }
+    .intext{
+        color:#67a2d6;
+        transition:0.3s;
+    }
+    .intext:hover{
+        color:#67a2d6;
+        opacity:0.3;
+        transition:0.3s;
+    }
+    .intext:active{
+        color:#67a2d6;
+        opacity:0.6;
+        transition:0.1s;
+    }
+    .intext:visited{
+        color:#67a2d6;
+    }
+                #overlay {
+            /* Always fixed in the same place even if the user scrolls */
+			  position: fixed;
+            /* Doesn't display until called */
+			  display: none;
+              /* Fills the whole screen */
+			  width: 100%;
+			  height: 100%;
+              /* Positioned in the middle of the screen */
+			  top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;
+              /* Black partially transparent background */
+			  background-color: rgba(0,0,0,0.8);
+              /* Specifies stack order */
+			  z-index: 2;
+              /* Activates pointer cursor */
+			  cursor: pointer;
+              /* Aligns text to center, sets colour and size */
+              text-align:center;
+              font-family:'Courier New', Courier, monospace;
+              font-weight:bold;
+              color:white;
+              font-size:18px;
+			}
+
+            /* Modal image */
+            #overlayImg {
+                /* Responsive width and height */
+				width: 80%;
+				height: 80%;
+                /* Positioned in front of overlay */
+				position: absolute;
+                /* Positioning */
+			    top: 12%;
+			    left: 10%;
+			    right: 10%;
+			    bottom: 10%;
+                border-radius:6px;
+			}
+            
+            #overlayText{
+                background-color:#5ead95;border-radius:20px;width:50%;margin:auto;padding:20px;margin-top:1%;
+            }
+            
+    @media only screen and (max-width: 600px) {
+    
+    #portfoliobody {
+        width:90%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+
+    .bio-text{
+        font-size:18px;
+        width:80%;
+        margin-top:1.5%;
+        margin-bottom:1.5%;
+    }
+
+    #footer {
+    /* Positioning and text style */
+    padding-top:2%;
+    padding-bottom:2%;
+    font-size:16px;
+    }
+
+    .headline {
+    font-size:1.10em;
+    top:40%;
+    }
+
+    #overlay {
+    font-size:16px;
+	}
+
+    #overlayText {
+        margin-top:10%;
+    }
+    }

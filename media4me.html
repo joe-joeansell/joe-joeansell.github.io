@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Joe Ansell's Portfolio</title>
+     <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tiny5&display=swap" rel="stylesheet">
+    
+
+<style>
+    #portfoliobody {
+        font-family: "Orbitron", sans-serif;
+        background-color:#fff;
+        color:#0a8c4c;
+        font-size:14px;
+        width:60%;
+        border-radius:10px;
+        margin:auto;
+        text-align:center;
+        margin-top:1.5%;
+        margin-bottom:2%;
+        padding:0.5%;
+    }
+    #buttoncontainer{
+        margin:auto;
+        text-align:center;
+    }
+    #backbutton {
+        font-family: "Orbitron", sans-serif;
+        background-color:#5fdb9f;
+        color: white;
+        font-size:1.30em;
+        border-radius:10px;
+        margin:auto;
+        margin-top:0.1%;
+        border:none;
+        padding:15px;
+        padding-left: 80px; padding-right: 80px;
+        transition:0.3s;
+    }
+    #backbutton:hover{
+        opacity:0.6;
+        transition:0.3s;
+        cursor: pointer;
+    }
+    #backbutton:active{
+        opacity:1;
+        transition:0.1s;
+    }
+    #byline{
+        /* font-family:'Courier New', Courier, monospace; */
+        border-radius:10px;
+        margin:auto;
+        width:90%;
+        background-color:#5fdb9f;
+        color: white;
+        font-size:0.95em;
+        padding-top:1px; padding-bottom:1px;
+        padding-left: 20px; padding-right: 20px;
+        margin-bottom:2%;
+        margin-top:2%;
+    }
+    .bio-text{
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        font-size:20px;
+        padding-top:0%;
+        padding-bottom:1%; 
+        color:#507360;
+        width:90%;
+        margin:auto;
+    }
+
+    @media only screen and (max-width: 600px) {
+    
+    #portfoliobody {
+        width:90%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+
+    #portfoliobody h1{
+        font-size:25px;
+    }
+
+    #portfoliobody iframe{
+        width:70%;
+        height:550px;
+        margin-bottom:5%;
+    }
+
+    .bio-text{
+        font-size:18px;
+        width:80%;
+        margin-top:3.5%;
+        margin-bottom:3.5%;
+    }
+
+    #byline{
+        /* font-family:'Courier New', Courier, monospace; */
+        width:80%;
+        font-size:0.85em;
+        padding-top:1px; padding-bottom:1px;
+        padding-left: 20px; padding-right: 20px;
+        margin-bottom:4%;
+        margin-top:4%;
+    }
+
+    #buttoncontainer{
+    margin-top:4%;
+    }
+    
+    }
+
+</style>
+<script>
+
+</script>
+</head>
+<body>
+
+    <nav id="navbar"> <a href="index.html"> PROJECTS </a> <a href="about.html"> ABOUT ME </a> <a href="https://www.linkedin.com/in/joseph-ansell-48b489289/"> LINKEDIN </a></nav>
+
+    <a href="index.html"><div id="buttoncontainer">
+        <button id="backbutton">Back To Main Portfolio</button>
+    </div></a>
+
+    <div id="portfoliobody">
+        <h1>Media4Me - Figma Website Prototype</h1>
+
+        <div id="byline"><h2>2024 University Project. Figma prototype for a streaming guide website, with rich media elements.</h2></div>
+
+        <!-- byline- "2024 University Project. Figma prototype for a streaming guide website." or something similar -->
+        <p class="bio-text" style="font-size:18px;margin-top:-0.5%;color:#5ead95;">Figma  | Photoshop | Web Design | Graphic Design</p>
+
+        <p class="bio-text">For this project, the brief was to create a prototype web design, with interactive and rich media features, such as marquee banners, image carousels and animations. The brief was up to me, and I chose to create a streaming guide for TV, Film and Videogames.</p>
+        <p class="bio-text" style="margin-top:-0.5%;">I chose to create my prototype in Figma, using this software to design wireframes, as well as final working prototypes for three different screen sizes. This was a good opportunity to develop my web design skills.</p>
+        <!-- Brief description of project, what went into making it and any achievements/accolades -->
+
+        <!-- lengthier description, includes what software/skills i used in the creation of the artefact
+         software used
+         skills used/developed -->
+        <p class="bio-text" style="font-size:16px;margin-bottom:1.5%;color:#5ead95;width:70%;">Below you can peruse the Desktop view version of Media4Me. View in full screen for best experience.</p>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:10px;" width="50%" height="450px" src="https://embed.figma.com/proto/c3paBt3Ppn91TWLMqZ7C2u/%22Media4Me%22-Design?node-id=2080-81&embed-host=share" allowfullscreen></iframe>
+        <!-- image carousel, screenshots/gifs maybe? of media4me with captions -->
+        <!-- alternatively, might insert an embed of the figma prototype ITSELF if i can make that work. will try and do this for p5js pages as well -->
+    </div>
+
+    <div id="footer">
+        <p>Site coded by and all work present developed primarily or in part by Joseph Ansell. 2023-25.</p>
+    </div>
+</body>
+</html>

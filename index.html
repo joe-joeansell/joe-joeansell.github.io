@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Joe Ansell's Portfolio</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tiny5&display=swap" rel="stylesheet">
+    
+
+<style>
+   
+    #logoheader {
+        background-color:#fff;
+        color:#5fdb9f;
+        width:30%;
+        border-radius:5px;
+        margin:auto;
+        text-align:center;
+        padding:0.5%;
+        margin-top:1.5%;
+    }
+    #logoheader img{
+        width:45%;
+        height:45%;
+    }
+    .bio-intro{
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        font-size:20px;
+        margin-top:15px;
+        margin-bottom:-5px; 
+        color:#507360;
+    }
+    .linkgrid{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 50% 50%;
+        width:90%;
+        height:40%;
+    }
+    /* for solo items */
+    .linkgrid2{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 100%;
+        width:50%;
+        height:40%;
+    }
+    .grid-item{
+        /* border: 1px solid black; */
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        transition: 0.3s;
+        text-align:center;
+        font-size:10px;
+        width:60%;
+        margin:auto;
+        height:100%;
+        border-radius:10px;
+        box-shadow: 3px 3px 10px grey;
+        position:relative;
+    }
+    .grid-image{
+        width:100%;
+        height:100%;
+        border-radius:10px;
+    }
+    .grid-item:hover{
+        opacity:0.6;
+        cursor:pointer;
+        /* width:95%;
+        height:95%; */
+        transition: 0.3s;
+    }
+    .grid-item:active{
+        opacity:0.9;
+        cursor:pointer;
+        transition: 0.1s;
+    }
+
+    @media only screen and (max-width: 600px) {
+    
+    .linkgrid{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 50% 50%;
+        width:90%;
+        height:40%;
+    }
+    /* for solo items */
+    .linkgrid2{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 100%;
+        width:50%;
+        height:40%;
+    }
+    .grid-item{
+        /* border: 1px solid black; */
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        transition: 0.3s;
+        text-align:center;
+        font-size:10px;
+        width:80%;
+        margin:auto;
+        height:100%;
+        border-radius:10px;
+        box-shadow: 3px 3px 10px grey;
+        position:relative;
+    }
+
+    .bio-intro{
+        font-size:18px;
+        margin-top:15px;
+        margin-bottom:-5px; 
+    }
+
+    #logoheader {
+        width:80%;
+        border-radius:5px;
+        padding:0.5%;
+        margin-top:3%;
+        margin-bottom:5%;
+    }
+    #logoheader img{
+        width:65%;
+        height:65%;
+    }
+
+    }
+
+</style>
+<script>
+
+</script>
+</head>
+<body>
+    <div id="logoheader">
+        <img src="images/portfoliologo.png">
+    </div>
+
+    <nav id="navbar"> <a href="index.html"> PROJECTS </a> <a href="about.html"> ABOUT ME </a> <a href="https://www.linkedin.com/in/joseph-ansell-48b489289/"> LINKEDIN </a></nav>
+
+    <div id="portfoliobody">
+        <h1>University Work</h1>
+        <p class="bio-intro">Click on an item to see details and pictures of the work.</p>
+        <h2>Figma Work</h2>
+        <div class="linkgrid">
+            <!-- 2 x 2 grid, images and titles of prokjects -->
+             <!-- defined image size, all grid images should be 400x250 -->
+            <a href="media4me.html"> <div class="grid-item"> <img src="images/media4me.png" class="grid-image">
+                <div class="headline"><p>Media4Me</p></div>
+            </div> </a>
+            <a href="tagged.html"> <div class="grid-item"> <img src="images/tagged.png" class="grid-image"> 
+                <div class="headline"><p>Tagged!</p></div>
+            </div> </a>
+        </div>
+        <!-- have portfolio entries appear here in a grid  -->
+        <h2>P5.JS Development</h2>
+        <div class="linkgrid">
+            <!-- 2 x 2 grid, images and titles of prokjects -->
+             <!-- defined image size, all grid images should be 400x250 -->
+            <a href="wiretap-simulator.html"><div class="grid-item"> <img src="images/wiretap2.PNG" class="grid-image"> 
+                <div class="headline"><p>Wiretap Simulator</p></div>
+            </div> </a>
+            <a href="danceyourselfdizzy.html"> <div class="grid-item"> <img src="images/dancegame.png" class="grid-image"> 
+                <div class="headline"><p>Dance Yourself Dizzy!</p></div>
+            </div> </a>
+        </div>
+        <h2>Web Development</h2>
+                <div class="linkgrid">
+            <!-- 2 x 2 grid, images and titles of prokjects -->
+             <!-- defined image size, all grid images should be 400x250 -->
+            <a href="aoat.html"> <div class="grid-item"> <img src="images/aoat.PNG" class="grid-image"> 
+                <div class="headline"><p>Archive Of Abject Terror</p></div>
+            </div> </a>
+            <a href="myportfolio.html"> <div class="grid-item"> <img src="images/bgcolour.PNG" class="grid-image"> 
+                <div class="headline"><p>This Website!</p></div>
+            </div> </a>
+        </div>
+        <h2>Interaction Design</h2>
+                <div class="linkgrid" style="margin-bottom:3%;">
+            <!-- 2 x 2 grid, images and titles of prokjects -->
+             <!-- defined image size, all grid images should be 400x250 -->
+            <a href="carebo.html"> <div class="grid-item"> <img src="images/carebo.PNG" class="grid-image">  
+                <div class="headline"><p>CareBo</p></div>
+            </div> </a>
+            <a href="snakesandladders.html"> <div class="grid-item"> <img src="images/SNL.jpg" class="grid-image"> 
+                <div class="headline"><p>Snakes & Ladders & You!</p></div>
+            </div> </a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Site coded by and all work present developed primarily or in part by Joseph Ansell. 2023-25.</p>
+    </div>
+</body>
+</html>

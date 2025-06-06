@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>The Archive of Abject Terror</title>
+     <link rel ="stylesheet" type="text/css" href="style.css">
+     <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tiny5&display=swap" rel="stylesheet">
+    
+
+<style>
+    #portfoliobody {
+        font-family: "Orbitron", sans-serif;
+        background-color:#fff;
+        color:#0a8c4c;
+        font-size:14px;
+        width:60%;
+        border-radius:10px;
+        margin:auto;
+        text-align:center;
+        margin-top:1.5%;
+        margin-bottom:2%;
+        padding:0.5%;
+    }
+    #buttoncontainer{
+        margin:auto;
+        text-align:center;
+    }
+    #backbutton {
+        font-family: "Orbitron", sans-serif;
+        background-color:#5fdb9f;
+        color: white;
+        font-size:1.30em;
+        border-radius:10px;
+        margin:auto;
+        margin-top:0.1%;
+        border:none;
+        padding:15px;
+        padding-left: 80px; padding-right: 80px;
+        transition:0.3s;
+    }
+    #backbutton:hover{
+        opacity:0.6;
+        transition:0.3s;
+        cursor: pointer;
+    }
+    #backbutton:active{
+        opacity:1;
+        transition:0.1s;
+    }
+    #byline{
+        /* font-family:'Courier New', Courier, monospace; */
+        border-radius:10px;
+        margin:auto;
+        width:90%;
+        background-color:#5fdb9f;
+        color: white;
+        font-size:0.95em;
+        padding-top:1px; padding-bottom:1px;
+        padding-left: 20px; padding-right: 20px;
+        margin-bottom:2%;
+        margin-top:2%;
+    }
+    .bio-text{
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        font-size:20px;
+        padding-top:0%;
+        padding-bottom:1%; 
+        color:#507360;
+        width:90%;
+        margin:auto;
+    }
+    .galleygrid{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 33% 33% 33%;
+        width:65%;
+        height:40%;
+        margin-right:19%;
+        margin-bottom:5.5%;
+        margin-top:1%;
+        grid-gap:3%;
+    }
+    /* for solo items */
+    .linkgrid2{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 100%;
+        width:50%;
+        height:40%;
+    }
+    .lgrid-item{
+        /* border: 1px solid black; */
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        transition: 0.3s;
+        text-align:center;
+        font-size:10px;
+        width:90%;
+        margin:auto;
+        height:100%;
+        border-radius:10px;
+        box-shadow: 3px 3px 10px grey;
+        position:relative;
+        
+    }
+    .lgrid-image{
+        width:100%;
+        height:100%;
+        border-radius:10px;
+    }
+    .lgrid-item:hover{
+        opacity:0.6;
+        cursor:pointer;
+        /* width:95%;
+        height:95%; */
+        transition: 0.3s;
+    }
+    .lgrid-item:active{
+        opacity:0.9;
+        cursor:pointer;
+        transition: 0.1s;
+    }
+
+    
+
+        @media only screen and (max-width: 600px) {
+    
+    #portfoliobody {
+        width:90%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+
+    #portfoliobody h1{
+        font-size:25px;
+    }
+
+    #portfoliobody iframe{
+        width:70%;
+        height:550px;
+        margin-bottom:5%;
+    }
+
+    .bio-text{
+        font-size:18px;
+        width:80%;
+        margin-top:3.5%;
+        margin-bottom:3.5%;
+    }
+
+    #byline{
+        /* font-family:'Courier New', Courier, monospace; */
+        width:80%;
+        font-size:0.85em;
+        padding-top:1px; padding-bottom:1px;
+        padding-left: 20px; padding-right: 20px;
+        margin-bottom:4%;
+        margin-top:4%;
+    }
+
+    #buttoncontainer{
+    margin-top:4%;
+    }
+    
+    .galleygrid{
+        width:85%;
+        height:40%;
+        margin-right:9%;
+        margin-bottom:11.5%;
+        margin-top:1%;
+        grid-gap:3%;
+        row-gap:4%;
+    }
+
+    }
+
+</style>
+<script>
+
+</script>
+</head>
+<body>
+
+    <div id="overlay" onclick="overlayOff()">
+                <!-- Modal Image -->
+				<img id="overlayImg" src="images/homepage.PNG">
+                <!-- Caption for modal image. Has some styling to separate it from the background. -->
+                <p id="overlayText" >Black Christmas (1974) - Poster. Also released as "Silent Night Evil Night", seen here.</p>
+	</div>
+
+    <nav id="navbar"> <a href="index.html"> PROJECTS </a> <a href="about.html"> ABOUT ME </a> <a href="https://www.linkedin.com/in/joseph-ansell-48b489289/"> LINKEDIN </a></nav>
+
+    <a href="index.html"><div id="buttoncontainer">
+        <button id="backbutton">Back To Main Portfolio</button>
+    </div></a>
+
+    <div id="portfoliobody">
+        <h1>Archive Of Abject Terror - Hobby Themed Website Prototype</h1>
+
+        <div id="byline"><h2>2024 University Project. Prototype website focused on a hobby (Horror media), coded from scratch.</h2></div>
+
+        <!-- byline- "2024 University Project. Figma prototype for a streaming guide website." or something similar -->
+        <p class="bio-text" style="font-size:18px;margin-top:-0.5%;color:#5ead95;">CSS | HTML | JavaScript | Web Design | Without Bootstrap</p>
+
+        <p class="bio-text">A first year project, the goal of this project was to create several pages of a website themed around a particular hobby or interest. I chose horror media as I am an avid fan of the genre, and decided to frame my site as a 'database'/review site of sorts.</p>
+        <p class="bio-text" style="margin-top:-0.5%;">I coded this prototype mainly with HTML and CSS, and used media queries to make it responsive for a few different screen sizes. Certain interactive elements needed to be included as part of the brief, such as videos, a working form and an image carousel. I was able to implement these features and others with Javascript. The site was coded from scratch without using a framework such as Bootstrap.</p>
+        <!-- Brief description of project, what went into making it and any achievements/accolades -->
+
+        <!-- lengthier description, includes what software/skills i used in the creation of the artefact
+         software used
+         skills used/developed -->
+        
+        <div class="galleygrid">
+            <!-- 2 x 2 grid, images and titles of prokjects -->
+             <!-- defined image size, all grid images should be 400x250 -->
+            <div class="lgrid-item" onclick="overlayOn()"> <img src="images/homepage.PNG" class="lgrid-image"> </div> 
+            <div class="lgrid-item" onclick="overlayOn2()"> <img src="images/contactpage.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn3()"> <img src="images/guestbookform.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn4()"> <img src="images/gridpage.PNG" class="lgrid-image"> </div> 
+            <div class="lgrid-item" onclick="overlayOn5()"> <img src="images/infobox.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn6()"> <img src="images/carousel.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn7()"> <img src="images/homepagemobile.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn8()"> <img src="images/contactmobile.PNG" class="lgrid-image"> </div>
+            <div class="lgrid-item" onclick="overlayOn9()"> <img src="images/gridmobile.PNG" class="lgrid-image"> </div>
+        </div>
+
+        <!-- image carousel, screenshots/gifs maybe? of media4me with captions -->
+    </div>
+
+    <div id="footer">
+        <p>Site coded by and all work present developed primarily or in part by Joseph Ansell. 2023-25.</p>
+    </div>
+</body>
+</html>
