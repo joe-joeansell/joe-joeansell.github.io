@@ -230,6 +230,7 @@ function overlayOn10() {
 	//Makes the overlay appear on screen
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
+    //Hi
     document.getElementById("overlayImg").src = "images/careboconcept.png";
     document.getElementById("overlayImg").style.width = "90%";
     document.getElementById("overlayImg").style.height = "30%";
