@@ -474,7 +474,7 @@ function overlayOn20() {
 	//Makes the overlay appear on screen
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/skeleton.PNG";
+    document.getElementById("overlayImg").src = "images/skeleton.png";
     document.getElementById("overlayImg").style.width = "80%";
     document.getElementById("overlayImg").style.height = "35%";
     document.getElementById("overlayImg").style.left = "10%";
@@ -483,7 +483,7 @@ function overlayOn20() {
     document.getElementById("overlayText").innerHTML = "A still from the game Final Fantasy Legend, visually edited.";
   }else{
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/skeleton.PNG";
+    document.getElementById("overlayImg").src = "images/skeleton.png";
     document.getElementById("overlayImg").style.width = "50%";
     document.getElementById("overlayImg").style.height = "80%";
     document.getElementById("overlayImg").style.left = "25%";
@@ -497,7 +497,7 @@ function overlayOn21() {
 	//If controls mobile view, else controls desktop
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/imageedit.PNG";
+    document.getElementById("overlayImg").src = "images/imageedit.png";
     document.getElementById("overlayImg").style.width = "90%";
     document.getElementById("overlayImg").style.height = "25%";
     document.getElementById("overlayImg").style.left = "5%";
@@ -506,7 +506,7 @@ function overlayOn21() {
     document.getElementById("overlayText").innerHTML = "A screenshot of sprites being changed in a tile editor.";
   }else{
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/imageedit.PNG";
+    document.getElementById("overlayImg").src = "images/imageedit.png";
     document.getElementById("overlayImg").style.width = "60%";
     document.getElementById("overlayImg").style.height = "70%";
     document.getElementById("overlayImg").style.left = "20%";
