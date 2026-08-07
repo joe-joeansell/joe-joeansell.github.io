@@ -230,7 +230,7 @@ function overlayOn10() {
 	//Makes the overlay appear on screen
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/careboconcept.PNG";
+    document.getElementById("overlayImg").src = "images/careboconcept.png";
     document.getElementById("overlayImg").style.width = "90%";
     document.getElementById("overlayImg").style.height = "30%";
     document.getElementById("overlayImg").style.left = "5%";
@@ -239,7 +239,7 @@ function overlayOn10() {
     document.getElementById("overlayText").innerHTML = "My initial concept art for CareBo, before further refinement.";
   }else{
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/careboconcept.PNG";
+    document.getElementById("overlayImg").src = "images/careboconcept.png";
     document.getElementById("overlayImg").style.width = "60%";
     document.getElementById("overlayImg").style.height = "80%";
     document.getElementById("overlayImg").style.left = "20%";
@@ -302,7 +302,7 @@ function overlayOn13() {
 	//Makes the overlay appear on screen
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/touchsensor.PNG";
+    document.getElementById("overlayImg").src = "images/touchsensor.png";
     document.getElementById("overlayImg").style.width = "90%";
     document.getElementById("overlayImg").style.height = "30%";
     document.getElementById("overlayImg").style.left = "5%";
@@ -311,7 +311,7 @@ function overlayOn13() {
     document.getElementById("overlayText").innerHTML = "A player touches one of the pieces to a 'Snake' space, causing the board to light up and vibrate.";
   }else{
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/touchsensor.PNG";
+    document.getElementById("overlayImg").src = "images/touchsensor.png";
     document.getElementById("overlayImg").style.width = "60%";
     document.getElementById("overlayImg").style.height = "80%";
     document.getElementById("overlayImg").style.left = "20%";
@@ -451,7 +451,7 @@ function overlayOn19() {
 	//Makes the overlay appear on screen
   if (x.matches) {
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/zombie.PNG";
+    document.getElementById("overlayImg").src = "images/zombie.png";
     document.getElementById("overlayImg").style.width = "80%";
     document.getElementById("overlayImg").style.height = "35%";
     document.getElementById("overlayImg").style.left = "10%";
@@ -460,7 +460,7 @@ function overlayOn19() {
     document.getElementById("overlayText").innerHTML = "A still from the game Final Fantasy Legend, visually edited.";
   }else{
     document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlayImg").src = "images/zombie.PNG";
+    document.getElementById("overlayImg").src = "images/zombie.png";
     document.getElementById("overlayImg").style.width = "50%";
     document.getElementById("overlayImg").style.height = "80%";
     document.getElementById("overlayImg").style.left = "25%";
